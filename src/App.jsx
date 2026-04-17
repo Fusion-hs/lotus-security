@@ -1,9 +1,9 @@
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Process from "./components/Process";
-import WhyUs from "./components/WhyUs";
-import CTA from "./components/CTA";
-import Footer from "./components/Footer";
+import Hero from "./components/hero";
+import Services from "./components/services";
+import Process from "./components/process";
+import WhyUs from "./components/whyus";
+import CTA from "./components/cta";
+import Footer from "./components/footer";
 
 function App() {
   return (
