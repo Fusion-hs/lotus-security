@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="min-h-screen flex flex-col justify-center px-6 md:px-20">
 
       <NetworkBackground />
-      
+
       <h1 className="text-4xl md:text-6xl font-bold max-w-3xl">
         Your business is already{" "}
         <span className="text-accent">vulnerable</span>

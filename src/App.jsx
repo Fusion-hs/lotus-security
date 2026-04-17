@@ -2,17 +2,20 @@ import Hero from "./components/hero";
 import Services from "./components/services";
 import Process from "./components/process";
 import WhyUs from "./components/whyus";
-import CTA from "./components/cta";
 import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+import Trusted from "./components/trusted"
+
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Hero />
       <Services />
       <Process />
       <WhyUs />
-      <CTA />
+      <Trusted />
       <Footer />
     </div>
   );
