@@ -1,6 +1,6 @@
 import NetworkBackground from "./networkbg";
 
-export default function Hero() {
+export default function Hero({ onGetScan }) {
   return (
     <section className="min-h-screen flex flex-col justify-center px-6 md:px-20">
 
@@ -16,7 +16,7 @@ export default function Hero() {
         We find them before someone else does.
       </p>
 
-      <button className="mt-8 bg-accent text-black px-6 py-3 rounded-lg w-fit">
+      <button onClick={onGetScan} className="mt-8 bg-accent text-black px-6 py-3 rounded-lg w-fit">
         Get a Free Scan
       </button>
     </section>

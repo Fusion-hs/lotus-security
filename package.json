@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.104.0",
     "lucide-react": "^1.8.0",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "supabase": "^2.93.0",
+    "supabase-js": "^0.0.1-security"
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
