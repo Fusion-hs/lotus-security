@@ -1,14 +1,15 @@
 import { useState } from 'react';
 
 import Hero from "./components/hero";
-import Services from "./components/services";
-import Process from "./components/process";
 import WhyUs from "./components/whyus";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import Trusted from "./components/trusted"
 import ScanModal from "./components/scanmodal";
 
+import PentestDesc from './components/pentestdesc.jsx';
+import Services from './components/services.jsx';
+import ScanCap from './components/scancapabilities.jsx'
 
 function App() {
   const [formOpen, setFormOpen] = useState(false);
@@ -17,9 +18,11 @@ function App() {
     <div>
       <Navbar onRequestScan={() => setFormOpen(true)} />
       <Hero onGetScan={() => setFormOpen(true)} />
-      <Services />
-      <Process />
+      <PentestDesc />
       <WhyUs />
+      
+      <Services />
+      <ScanCap />
       <Trusted onRequestScan={() => setFormOpen(true)}/>
       <Footer />
       <ScanModal isOpen={formOpen} onClose={() => setFormOpen(false)} />
